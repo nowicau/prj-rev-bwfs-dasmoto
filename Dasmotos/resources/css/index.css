@@ -1,0 +1,30 @@
+body{
+  font-family: helvetica;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+strong{
+  font-weight: bold;
+  color: blue;
+}
+/* How would you add a background image from a saved file within the images folder? I tried background-image:url("resources\images\pattern.jpeg")
+and background-image: image("resources\images\pattern.jpeg")*/
+.main{
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+.brushes{
+  background-color: mediumspringgreen;
+}
+.frames{
+  background-color: lightcoral;
+}
+.paint{
+  background-color: skyblue;
+}
